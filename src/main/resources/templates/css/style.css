@@ -20,7 +20,7 @@
 	float:left;
 	width:21px;
 	height:17px;
-	background:url(../img/icons.png) 0 -881px;
+	background:url(../img/icon/icons.png) 0 -881px;
 	margin-right:15px;
 	}
 
@@ -29,7 +29,7 @@
 	float:left;
 	width:18px;
 	height:20px;
-	background:url(../img/icons.png) 0 -910px;
+	background:url(../img/icon/icons.png) 0 -910px;
 	margin-right:18px;
 	}
 
@@ -71,9 +71,9 @@
 	border-right:0;
 	}
 .login-r span{
-	width:19px;
+	width:16px;
 	height:16px;
-	background:url(../img/icons.png) 0 -1014px;
+	background:url(../img/icon/favo.ico);
 	float:left;
 	margin-right:8px;
 	}
@@ -90,9 +90,9 @@
 	}
 .topnav-wrap h2 span{
 	display:block;
-	width:168px;
-	height:25px;
-	background:url(../img/icons.png) 0 0;
+	width:200px;
+	height:100px;
+	background:url(../img/icon/pic1.png) 0 0;
 	}
 .topnav-wrap ul{
 	width:615px;
@@ -183,13 +183,13 @@
 .banner-wrap .icon1,.banner-wrap .icon2,.banner-wrap .icon3,.banner-wrap .icon4{
 	width:16px;
 	height:16px;
-	background:url(../img/icons.png) -259px -929px;
+	background:url(../img/icon/icons.png) -259px -929px;
 	margin-right:14px;
 	}
 .banner-wrap .active{
 	width:16px;
 	height:16px;
-	background:url(../img/icons.png) -280px -929px;
+	background:url(../img/icon/icons.png) -280px -929px;
 	}
 .box-1{
 	width:100%;
@@ -201,7 +201,7 @@
 .box-1 .tit1{
 	width:288px;
 	height:78px;
-	background:url(../img/icons.png) 0 -708px;
+	background:url(../img/icon/icons.png) 0 -708px;
 	margin:0 auto;
 	margin-bottom:42px;
 	}
@@ -265,7 +265,7 @@
 	width:13px;
 	height:13px;
 	margin-left:10px;
-	background:url(../img/icons.png) -177px -1014px;
+	background:url(../img/icon/icons.png) -177px -1014px;
 	}
 .box1-pic{	
 	transition:all 2s;
@@ -284,7 +284,7 @@
 	height:52px;
 	margin:0 auto;
 	margin-bottom:46px;
-	background:url(../img/tit2.jpg) no-repeat center center;
+	background:url(../img/title/tit2.jpg) no-repeat center center;
 }
 .box-2 ul{
 	width:1180px;
@@ -326,7 +326,7 @@
 	height:51px;
 	margin:0 auto;
 	margin-bottom:40px;
-	background:url(../img/tit3.jpg) no-repeat center center;
+	background:url(../img/title/tit3.jpg) no-repeat center center;
 }
 .box-3 ul{
 	width:1180px;
@@ -398,7 +398,7 @@
 	margin:0 auto;
 	width:1180px;
 	height:118px;
-	background:url(../img/icons.png) no-repeat -244px -541px;
+	background:url(../img/icon/icons.png) no-repeat -244px -541px;
 	}
 .link-wrap{
 	width:100%;
@@ -440,7 +440,7 @@
 	display:block;
 	width:21px;
 	height:21px;
-	background:url(../img/icons.png) no-repeat 0 -881px;
+	background:url(../img/icon/icons.png) no-repeat 0 -881px;
 	}	
 .consider .icon2{
 	background-position:0 -910px;
@@ -455,10 +455,10 @@
 	display:block;
 	width:37px;
 	height:36px;
-	background:url(../img/icon-1.jpg) no-repeat;
+	background:url(../img/icon/icon-1.jpg) no-repeat;
 	}
 .contact em{
-	background-image:url(../img/icon-2.jpg);
+	background-image:url(../img/icon/icon-2.jpg);
 	}
 .contact dd .contact1,.contact dd .contact2{
 	display:block;
@@ -494,7 +494,7 @@
 	display:block;
 	width:100px;
 	height:16px;
-	background:url(../img/icons.png) no-repeat -439px 0;
+	background:url(../img/icon/pic2.png) no-repeat -439px 0;
 	}
 .footer p{
 	height:16px;
