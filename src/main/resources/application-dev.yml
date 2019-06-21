@@ -1,0 +1,34 @@
+server:
+    port: 8082
+    context-path: /hnzs
+
+debug: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://104.225.147.76:3306/tale?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: Zhrb1992!
+  jpa:
+    hibernate:
+      ddl-auto: update  # 第一次简表create  后面用update
+    show-sql: true
+  thymeleaf:
+  freemarker:
+    prefix:  classpath:/templates/
+  resources:
+    static-locations: classpath:/templates/
+  #设置开启热部署
+  devtools:
+    restart:
+      enabled: true
+    freemarker:
+      cache: false
+
+mybatis:
+  check-config-location: true
+  type-aliases-package: com.example.entity
+  #config-location: classpath*:mybatis/*Mapper.xml
+  mapper-locations: classpath*:mybatis/*Mapper.xml
+testPropertyBean:
+  testPropertyParam1: this is from property
